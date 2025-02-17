@@ -1,0 +1,138 @@
+import { StyleSheet } from "react-native";
+
+export const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    width: "100%",
+    height: "100%",
+    backgroundColor: "#121212",
+  },
+  header: {
+    display: "flex",
+    flexDirection: "row",
+    justifyContent: "center",
+    padding: 20,
+    paddingTop: 40,
+    backgroundColor: "#2C1B4B",
+  },
+  headerTitle: {
+    marginTop: 4,
+    marginLeft: 10,
+    fontSize: 24,
+    fontWeight: "bold",
+    color: "#fff",
+  },
+  image: {
+    width: 40,
+    height: 40,
+  },
+  searchContainer: {
+    flexDirection: "row",
+    alignItems: "center",
+    backgroundColor: "#1E1E1E",
+    margin: 10,
+    paddingHorizontal: 10,
+    paddingVertical: 5,
+    borderRadius: 10,
+    elevation: 2,
+    shadowColor: "#000",
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.1,
+    shadowRadius: 4,
+  },
+  searchInput: {
+    flex: 1,
+    marginLeft: 10,
+    fontSize: 16,
+    color: "#fff",
+  },
+  inputContainer: {
+    flexDirection: "row",
+    padding: 10,
+    gap: 10,
+  },
+  input: {
+    flex: 1,
+    backgroundColor: "#1E1E1E",
+    borderRadius: 10,
+    padding: 15,
+    fontSize: 16,
+    color: "#fff",
+    elevation: 2,
+    shadowColor: "#000",
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.1,
+    shadowRadius: 4,
+  },
+  addButton: {
+    backgroundColor: "#301E60",
+    width: 50,
+    height: 50,
+    borderRadius: 25,
+    justifyContent: "center",
+    alignItems: "center",
+    elevation: 2,
+    shadowColor: "#000",
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.1,
+    shadowRadius: 4,
+  },
+  addButtonDisabled: {
+    backgroundColor: "#333",
+  },
+  notesList: {
+    flex: 1,
+    padding: 10,
+  },
+  noteItem: {
+    backgroundColor: "#1E1E1E",
+    borderRadius: 10,
+    padding: 15,
+    marginBottom: 10,
+    flexDirection: "row",
+    elevation: 2,
+    shadowColor: "#000",
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.1,
+    shadowRadius: 4,
+  },
+  noteContent: {
+    flex: 1,
+  },
+  noteText: {
+    fontSize: 16,
+    marginBottom: 5,
+    color: "#fff",
+  },
+  noteDate: {
+    fontSize: 12,
+    color: "#aaa",
+  },
+  deleteButton: {
+    padding: 5,
+  },
+  emptyContainer: {
+    alignItems: "center",
+    justifyContent: "center",
+    paddingTop: 100,
+  },
+  emptyText: {
+    marginTop: 10,
+    fontSize: 16,
+    color: "#aaa",
+  },
+
+  layout: {
+    flex: 1,
+    justifyContent: "center",
+    alignItems: "center",
+  },
+  inputWrapper: {
+    position: "absolute",
+    bottom: 0,
+    width: "100%",
+    backgroundColor: "#121212",
+    paddingBottom: 20,
+  },
+  
+});
